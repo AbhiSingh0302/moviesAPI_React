@@ -91,7 +91,7 @@ const Signup = (props) => {
         <Button variant="primary" size="md" type="submit" className="mb-2">
           Sign Up
         </Button>
-        <p className="text-center">Already a user <Link to="/login">Login</Link></p>
+        <p className="text-center">Already a user <Link to="/signin">Signin</Link></p>
       </div>
     </Form>
   );
